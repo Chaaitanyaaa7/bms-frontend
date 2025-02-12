@@ -1,0 +1,20 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 95%;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}

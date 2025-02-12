@@ -1,0 +1,74 @@
+/* Modal container */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* Label styling */
+.input-group label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input, textarea, and select styles */
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Textarea specific styling */
+.input-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Save Button */
+button.bg-blue-600 {
+    background-color: #007bff;
+}
+
+button.bg-blue-600:hover {
+    background-color: #0056b3;
+}
+
+/* Cancel Button */
+button.bg-gray-500 {
+    background-color: #6c757d;
+}
+
+button.bg-gray-500:hover {
+    background-color: #545b62;
+}
+
+/* Modal width and spacing */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,32 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.input-group label {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+    width: 97%;
+    height: 40px;
+    font-size: 0.9rem;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    appearance: none;
+}
+
+.input-group textarea {
+    height: 80px;
+    resize: vertical;
+}
