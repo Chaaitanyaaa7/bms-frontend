@@ -3,7 +3,6 @@ import Modal from "react-modal";
 import { useMutation, useQuery } from "@apollo/client";
 import { ADD_BOOK } from "../graphql/mutations";
 import { GET_ALL_AUTHORS, GET_BOOKS } from "../graphql/queries";
-import "styles/AddBookModal.css";
 
 const modalStyles = {
     content: {

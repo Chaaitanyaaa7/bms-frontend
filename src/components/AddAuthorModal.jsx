@@ -2,7 +2,6 @@ import { useState } from "react";
 import Modal from "react-modal";
 import { useMutation } from "@apollo/client";
 import {ADD_AUTHOR, ADD_BOOK} from "../graphql/mutations";
-import "styles/AddAuthorModal.css";
 
 export default function AddAuthorModal({ isOpen, onClose, refetch }) {
     const [name, setName] = useState("");

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useQuery, useMutation } from "@apollo/client";
 import { GET_AUTHORS, GET_AUTHORS_COUNT } from "../graphql/queries";
 import { DELETE_AUTHOR } from "../graphql/mutations";
-import EditAuthorModal from "./EditAuthorModal"; // Import the EditAuthorModal
+import EditAuthorModal from "./EditAuthorModal";
 
 const AUTHORS_PER_PAGE = 10;
 

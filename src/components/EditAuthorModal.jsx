@@ -3,7 +3,6 @@ import Modal from "react-modal";
 import { useMutation, useQuery } from "@apollo/client";
 import { GET_AUTHOR, GET_AUTHORS } from "../graphql/queries";
 import { UPDATE_AUTHOR } from "../graphql/mutations";
-import "styles/EditAuthorModal.css"; // Ensure correct CSS import
 
 const modalStyles = {
     content: {

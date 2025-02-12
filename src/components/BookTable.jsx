@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useQuery, useMutation } from "@apollo/client";
 import { GET_BOOKS, GET_BOOKS_COUNT } from "../graphql/queries";
 import { DELETE_BOOK } from "../graphql/mutations";
-import EditBookModal from "./EditBookModal"; // Import EditBookModal
+import EditBookModal from "./EditBookModal";
 
 const BOOKS_PER_PAGE = 10;
 
